@@ -1,0 +1,26 @@
+.watch_wrapper {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+.watch_wrapper .nav-tabs {
+  border: none;
+}
+.watch_wrapper .nav-tabs .nav-link {
+  border: none;
+}
+.watch_left .tab-content .nav {
+  flex-direction: column;
+  margin-top: 20px;
+}
+.watch_left .tab-content .nav-link {
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  background-color: #ddd;
+  margin-bottom: 5px;
+}
+
+.watch_left .show_border {
+  border: none;
+  border-right: 1px solid #ddd !important;
+}

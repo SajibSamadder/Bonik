@@ -1,0 +1,267 @@
+@media (max-width:1200px) {
+    .header .header_manu{
+        display: none;
+    }
+    .manu_bar {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        transform: translate(-50%,50%);
+        right: 20%;
+        top: 21px;
+    }
+    .header.active .manu_bar{
+        top: 6px;
+    }
+    .manu_bar span{
+        height: 3px;
+        width: 23px;
+        background: #0091D8;
+        margin: 2px 0;
+    }
+    .side_manu_head {
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+    .side_manu_body {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+        padding: 0 20px 20px 0px;
+        height: calc(100vh - 52px);
+        padding-bottom: 150px;
+    }
+    .header_btn > a {
+      display: inline-block;
+      padding: 8px 20px !important;
+      background: #0091d8;
+      color: #fff !important;
+      border-radius: 25px;
+      margin-right: 10px;
+      display: inline-block;
+
+      width: inherit !important;
+    }
+}
+@media (max-width:992px) {
+    .why_akash_card_wrapper {
+       display: inherit;
+      
+    }
+    .why_akash_card_wrapper .owl-stage-outer {
+      background: #009de1;
+    }
+    .card_lg_view{
+      display: none;
+    }
+    .card_md_view{
+      display: block;
+    }
+    .fornt_details img {
+      width: 45% !important;
+      margin: auto;
+      padding-top: 15px;
+    }
+    .akash_card{
+      box-shadow: none;
+      border: none;
+    }
+    .fornt{
+      border: none;
+    }
+    .card_md_view .owl-dots {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .card_md_view .owl-dots .owl-dot {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20px;
+      width: 20px;
+    }
+    .card_md_view .owl-dots .owl-dot span {
+      height: 10px;
+      width: 10px;
+      transition: .5s;
+      background-color: #D4D4D4;
+      border-radius: 50%;
+    }
+    .card_md_view .owl-dots .owl-dot.active span {
+      height: 15px;
+      width: 15px;
+      background-color: #0091D8;
+    }
+
+    .fornt{
+      min-height: 450px;
+    }
+    .fornt h3{
+      margin-top: 16px;
+    }
+    .fornt_details p{
+      padding-bottom: 30px;
+    }
+ 
+}
+@media (max-width:768px) {
+  .fornt{
+    min-height: 350px;
+  }
+    .header .manu_bar{
+        right: 30px;
+    }
+    .shop_icon {
+        display: block;
+        position: absolute;
+        right: 100px;
+        top: 27px;
+      }
+      .shop_icon i {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        color: #00a0e3;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    .header.active .shop_icon {
+        top: 15px;
+      }
+    .banner_slider_wrapper .mobile{
+        display: block!important;
+    }
+    .banner_slider_wrapper .desktop{
+        display: none!important;
+    }
+    .why_akash_card_wrapper {
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .img_compaer_details_wrapper {
+        display: flex;
+        justify-content: center;
+        background: #F4F4F4;
+      }
+      .img_compaer_details {
+        position: relative;
+        min-height: 350px !important;
+        min-width: 350px !important;
+        transform: inherit;
+        background: #FFF;
+        margin: 25px 0;
+    }
+    .img_compaer_details > h2 {
+        font-size: 22px;
+        color: #000;
+    }
+    .twentytwenty-horizontal .twentytwenty-handle::before{
+        background-image: url("../img/picture-quility-filter-mobile-icon.svg");
+    }
+    .fornt_details p{
+      padding-bottom: 20px;
+    }
+}
+@media (max-width:576px) {
+  .fornt{
+    min-height: 300px;
+  }
+    .product_price .col-lg-4{
+        order: inherit !important;
+    }
+    .product_price div:nth-child(2){
+        margin: 0;
+    }
+    .akash_price_details{
+        margin: 0;
+        text-align: center;
+    }
+    .akash_set {
+        text-align: start;
+    }
+    .akash_set img {
+        height: auto;
+      }
+      .product_price .akash_titel h2{
+        margin: 0;
+      }
+      .akash_help_line .akash_para {
+        margin: 0 16px;
+      }
+      .feature_item_details h5{
+        font-size: 20px;
+      }
+      .feature_item_details img{
+        width: 30px;
+      }
+      .feature_item_wrapper {
+        padding: 10px;
+      }
+    .app_location .row>div:nth-child(1){
+        order: 1;
+    }
+    .app_location .row>div:nth-child(2){
+       margin: 0;
+    }
+    .footer_left{
+        padding: 0;
+    }
+    .footer {
+        padding: 0 45px;
+      }
+      .footer_left img{
+        width: 120px;
+      }
+      .footer_right_wrapper > div {
+        margin-top: 20px;
+      }
+      .footer_right_wrapper {
+        display: inherit;
+      }
+    .akash_titel h2:nth-child(2) {
+        line-height: 30px;
+      }
+      .akash_price .akash_titel::after {
+        bottom: -18px;
+      }
+      .footer_right{
+        margin-top: 40px;
+      }
+      .akash_set img {
+        margin-right: 0;
+      }
+    .why_akash_card_wrapper {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0px;
+        padding: 0 20px;
+    } 
+ 
+    .social_link li a i{
+        height: 35px;
+        width: 35px;
+    }
+    .footer{
+        padding: 0 30px;
+    }
+    .footer_top {
+        padding-bottom: 18px;
+      }
+      .footer_bottom.text-center {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+      .footer_bottom.text-center a {
+        margin-top: 10px;
+      }
+}
+@media (max-width:410px){
+    .footer_bottom span a{
+        display: block;
+    }
+}

@@ -1,0 +1,54 @@
+.stoer_prodeuct_wrapper {
+    padding: 16px 10px;
+    display: flex;
+align-items: center;
+background-color: #eceff1;
+
+  }
+  .stoer_prodcut_img img {
+    height: 110px;
+  }
+  .stoer_prodeuct_wrapper button{
+  }
+  .stoer_prodeuct_wrapper .add_to_card button {
+    position: inherit;
+    transform: inherit;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+  }
+  .stoer_prodeuct_wrapper .add_to_card{
+    display: flex;
+    flex-direction: column;
+  }
+  .stoer_prodeuct_wrapper {
+    border-bottom: 1px solid #d1cfcf;
+  }
+  .stoer_prodeuct_wrapper .add_to_card button:nth-child(2) {
+    background: transparent !important;
+    border: none;
+  }
+  
+  .select-none{
+    background-color: rgb(218, 225, 231);
+    color: rgb(125, 135, 156);
+    border-color: rgb(218, 225, 231);
+    /* cursor: pointer; */
+  }
+  .select-none {
+    cursor: unset !important;
+    color: rgb(125, 135, 156);
+  }
+  
+  .stoer_prodeuct_wrapper .select-none:hover {
+    background-color: rgb(218, 225, 231) !important;
+border-color: rgb(218, 225, 231) !important;
+color: rgb(130, 108, 112) !important;
+
+  }
+  .select-none>i {
+color: rgb(96, 93, 94) !important;
+
+  }

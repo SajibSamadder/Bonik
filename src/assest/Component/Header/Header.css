@@ -1,0 +1,69 @@
+.logo a img {
+  width: 100px;
+}
+.header .manu nav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  box-shadow: rgba(43, 52, 69, 0.06) 0px 4px 16px;
+}
+.header .manu nav ul li {
+  padding: 0 16px;
+  font-size: 18px;
+}
+
+.header .manu nav ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.manu nav {
+  height: 100%;
+}
+
+.header .manu nav ul li a {
+  color: #000;
+  transition: 0.4s;
+}
+
+.shoping_card i {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #dddddd;
+}
+.shoping_card {
+  position: relative;
+}
+.shoping_card .shoping_length {
+  background: red;
+  padding: 7px 5px;
+  color: #fff;
+  border-radius: 6px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -12px;
+  right: 16px;
+  font-size: 13px;
+}
+.manu {
+  display: flex;
+  align-items: center;
+}

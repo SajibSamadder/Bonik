@@ -1,0 +1,20 @@
+.product_slider_titel {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.owl-stage-outer {
+  cursor: pointer;
+}
+.owl-nav {
+  cursor: pointer;
+}
+.product_slider .modal-dialog {
+  max-width: 700px !important;
+}
+.modal_product_details {
+  width: 50%;
+}
+.modal_product_img {
+  width: 50%;
+}

@@ -1,0 +1,70 @@
+.product_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background-color: rgb(246, 249, 252);
+  padding: 50px 150px;
+}
+.product_wrapper {
+  padding: 0 10px 10px 10px;
+  background: #eceef0;
+  border-radius: 5px;
+  position: relative;
+}
+.product_text {
+  padding-top: 50px;
+}
+.ratting > div > i {
+  color: #ffcd4e;
+}
+.price h6 {
+  font-size: 14px;
+  color: rgb(233, 69, 96);
+  margin-top: 10px;
+  font-weight: 600;
+}
+.price h6 span del {
+  color: rgb(125, 135, 156);
+  font-weight: 600;
+  margin-left: 10px;
+}
+.add_to_card button {
+  border: none;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 1px solid rgb(254, 190, 201);
+  right: 0;
+  transform: translate(-18px, -40px);
+  transition: 0.3s;
+  border-radius: 6px;
+}
+.add_to_card .dcrease {
+  transform: translate(-18px, -95px);
+}
+.add_to_card .add_length {
+  transform: translate(-18px, -75px);
+  background: transparent;
+  border: none;
+}
+.dcrease,
+.add_length {
+  visibility: hidden;
+  opacity: 0;
+}
+div#offcanvasRight {
+  overflow: auto;
+}
+.add_to_card button > i {
+  color: rgb(233, 69, 96);
+}
+.add_to_card button:hover {
+  background-color: rgb(233, 69, 96);
+}
+.add_to_card button:hover i {
+  color: #fff;
+}
+.card_increase {
+  opacity: 1;
+  visibility: visible;
+}
