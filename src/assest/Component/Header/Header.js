@@ -2,13 +2,10 @@ import React, { useState } from 'react'
 import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { IncreseContext } from '../../../App'
-
 import logo from '../../Img/logo.svg'
 import './Header.css'
 function Header() {
-
     const [increase, setIncrease, search, setSearch, storeProducts, setStoreProduct] = useContext(IncreseContext)
-
     function search_text(e) {
         setSearch(e.target.value)
     }

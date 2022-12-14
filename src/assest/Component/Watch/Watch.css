@@ -7,6 +7,13 @@
 }
 .watch_wrapper .nav-tabs .nav-link {
   border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(43, 52, 69);
+}
+.watch_wrapper .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: rgb(125, 135, 156);
 }
 .watch_left .tab-content .nav {
   flex-direction: column;
@@ -16,11 +23,32 @@
   border: none;
   background-color: transparent;
   text-align: left;
-  background-color: #ddd;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(246, 249, 252);
+  font-size: 18px;
 }
-
 .watch_left .show_border {
   border: none;
   border-right: 1px solid #ddd !important;
+}
+.watch_right .product_container {
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 25px;
+  background: transparent;
+}
+.watch_left {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.043) 0px 5px 8px 0px, rgba(0, 0, 0, 0.035) 0px 1px 14px 0px;
+  cursor: unset;
+  border-radius: 10px;
+  padding: 1.25rem;
+  background-color: white;
+  max-height: 400px;
+  position: sticky;
+  top: 100px;
+}
+.watch_left .nav-link.active {
+  background: green;
+  color: #fff;
 }

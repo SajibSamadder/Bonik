@@ -7,21 +7,22 @@ import { IncreseContext } from '../../../../../App'
 
 import "./allProduct.css"
 function AllProduct(props) {
-    const [products, setProduct] = useProducts([])
-    const flashProduct = products.slice(60, 76)
+
+    const flashProduct = props.children[1]
+
 
     const [increase, setIncrease, search, setSearch, storeProducts, setStoreProduct] = useContext(IncreseContext)
     const [findProdcut, setFindProduct] = useState([])
     useEffect(() => {
         setFindProduct(flashProduct)
-    }, [products])
+    }, [flashProduct])
     useEffect(() => {
         let findProduct = flashProduct.filter(product => product.name.toLowerCase().includes(search))
         setFindProduct(findProduct)
     }, [search])
     return (
         <div>
-            {props.children}
+            {/* {props.children[0]} */}
             <div className='product_container'>
 
                 {

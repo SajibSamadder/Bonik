@@ -9,7 +9,7 @@ function FlashDeals() {
             <div className="container">
                 <div className="flash_deals_wrapper">
                     <h2>Flash Deals</h2>
-                    <OwlCarousel className='owl-theme' loop margin={10} nav>
+                    <OwlCarousel className='owl-theme' loop margin={10} nav={true} navText={['<i class="far fa-chevron-right"></i>', '<i class="far fa-chevron-right"></i>']}>
                         <div class='item'>
                             <h4>1</h4>
                         </div>

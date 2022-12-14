@@ -32,7 +32,7 @@ function SingleProduct(props) {
                 {props.children}
                 <Link to="allProduct">View All</Link>
             </div>
-            <OwlCarousel className='owl-theme' loop margin={10} items={4} nav={true} navText={["prev", "next"]} dots={false}>
+            <OwlCarousel className='owl-theme' loop margin={10} items={4} nav={true} navText={['<i class="far fa-chevron-left"></i>', '<i class="far fa-chevron-right"></i>']} dots={false}>
                 {
                     flashProduct.map(product => {
                         function addProduct() {
@@ -101,9 +101,9 @@ function SingleProduct(props) {
                     })
                 }
             </OwlCarousel>
-            <div class="modal fade" id="a">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal fade" id="a">
+                <div className="modal-dialog">
+                    <div className="modal-content">
                         {a.map(product => {
                             return (
                                 <div className="modal_product_wrap" key={product.id}>

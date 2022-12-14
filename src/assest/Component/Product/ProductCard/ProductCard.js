@@ -25,11 +25,8 @@ function ProductCard() {
                     function addProduct() {
                         addProductLS([product, setIncrease])
                         const matchProduct = storeProducts.find(storeProduct => storeProduct.id == product.id)
-                        // console.log(matchProduct)
                         if (matchProduct) {
                             const withOutMatch = storeProducts.filter(storeProduct => storeProduct.id !== product.id)
-                            // product.quantity = product.quantity + 1
-                            console.log(product.quantity)
                             setStoreProduct([...withOutMatch, product])
                         } else {
                             product.quantity = 1
